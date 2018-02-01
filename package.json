@@ -1,0 +1,25 @@
+{
+  "name": "library_management_system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Library Management System that catalogs and maintains records of the various books present",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "3.1.0",
+    "pg": "^7.4.0"
+  },
+  "keywords": [
+    "library",
+    "management",
+    "book",
+    "node",
+    "ember"
+  ],
+  "author": "Giridharan J",
+  "license": "ISC"
+}
